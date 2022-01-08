@@ -9,7 +9,22 @@ export default function NavBar({children}) {
         <ul className={styles.navBar}>
           <li className={styles.navItem}>
             <Link href="/">
-              <a>Home</a>
+              <a><span>00</span> Home</a>
+            </Link>
+          </li>
+          <li className={styles.navItem}>
+            <Link href="/">
+              <a><span>01</span> Destination</a>
+            </Link>
+          </li>
+          <li className={styles.navItem}>
+            <Link href="/">
+              <a><span>02</span> Crew</a>
+            </Link>
+          </li>
+          <li className={styles.navItem}>
+            <Link href="/">
+              <a><span>03</span> Technology</a>
             </Link>
           </li>
         </ul>
