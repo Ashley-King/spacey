@@ -6,7 +6,7 @@ export default function NavBar({children}) {
   return(
     <header>
       <nav>
-        <ul className={`${util.flex} ${styles.navList}`}>
+        <ul className={`${util.flex} ${util.justifyStart} ${styles.navList}`}>
           <li className={styles.navItem}>
             <Link href="/">
               <a><span>00</span> Home</a>
