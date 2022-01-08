@@ -4,9 +4,9 @@ import Link from 'next/link'
 
 export default function NavBar({children}) {
   return(
-    <div>
+    <header>
       <nav>
-        <ul className={styles.navBar}>
+        <ul className={`${util.flex} ${styles.navList}`}>
           <li className={styles.navItem}>
             <Link href="/">
               <a><span>00</span> Home</a>
@@ -30,6 +30,6 @@ export default function NavBar({children}) {
         </ul>
         
       </nav>
-    </div>
+    </header>
   )
 }

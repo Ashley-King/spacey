@@ -1,0 +1,27 @@
+.navList{
+  list-style: none;
+}
+
+.navItem{
+  padding: 1rem 0;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s linear;
+  margin-right: 2rem;
+}
+.navItem:hover{
+  border-color: rgba(255,255,255,0.5);
+}
+
+.navItem a{
+  font-family: 'Barlow Condensed', sans-serif;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.navItem a span{
+  margin-right: 0.5em;
+  letter-spacing: 2.7px;
+  font-weight: 700;
+}
