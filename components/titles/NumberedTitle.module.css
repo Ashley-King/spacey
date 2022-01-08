@@ -1,0 +1,12 @@
+.numberedTitle{
+  font-family: var(--ff-barlow-condensed);
+  font-size: var(--fs-24);
+  text-transform: uppercase;
+  letter-spacing: 4.72px;
+}
+
+.numberedTitle > span{
+  margin-right: .5em;
+  font-weight: 700;
+  color: hsl(var(--clr-white) / .25);
+}
